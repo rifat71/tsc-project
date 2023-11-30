@@ -43,4 +43,8 @@ function kgToLbs(weight) {
 }
 kgToLbs(20);
 kgToLbs('20');
+let textBox = {
+    drag: () => { },
+    resize: () => { }
+};
 //# sourceMappingURL=index.js.map
