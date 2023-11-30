@@ -104,3 +104,13 @@ let amount2: 100 | 200 = 100; // correct
 //or
 type Amount = 100 | 200;
 let amount: Amount = 100; 
+
+// nullable, undefined
+function hello(name: string | null | undefined){
+    if(name)
+     console.log(name.toUpperCase());
+    else
+     console.log("World");
+}
+
+hello(null);
