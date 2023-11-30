@@ -97,3 +97,10 @@ let textBox: Widget = {
     drag: () => {},
     resize: () => {}
 };
+
+//if aI want to set a number in exactly 100 or 200 then comes Literal
+// let amount2: 100 | 200 = 51; // error
+let amount2: 100 | 200 = 100; // correct
+//or
+type Amount = 100 | 200;
+let amount: Amount = 100; 
